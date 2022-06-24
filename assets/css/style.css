@@ -860,7 +860,7 @@ footer {
     transition: all 0.38s;
 }
 
-.animacion6 {animacion6
+.animacion6 {
     transition: all 0.38s;
 }
 
@@ -879,26 +879,18 @@ footer {
 
 
 .animacion2:hover {
-    transform: translate(-10px, -10px);
-    box-shadow: 4px 4px 0px 4px #00000042 ;
+    transform: translate(0px, -10px);
+    box-shadow: 0px 4px 0px 4px #00000042 ;
 }
 
 .animacion3:hover {
-    transform: translate(-10px, 10px);
-    box-shadow: 4px 0px 4px 4px #00000042 ;
+    transform: translate(0px, -10px);
+    box-shadow: 0px 4px 0px 4px #00000042 ;
 }
 
 .animacion4:hover {
     transform: translate(0px, -10px);
     box-shadow: 0px 4px 0px 4px #00000042 ;
-}
-
-.animacion5:hover {
-    transform: skewy(1deg);
-}
-
-.animacion6:hover {
-    transform: skewy(-1deg);
 }
 
 .animacion7:hover {
@@ -1680,6 +1672,29 @@ footer {
         justify-content: center;
         align-items: center;
         padding-left: 15px ;
+    }
+
+    .animacion2:hover {
+        transform: translate(-10px, -10px);
+        box-shadow: 4px 4px 0px 4px #00000042 ;
+    }
+    
+    .animacion3:hover {
+        transform: translate(-10px, 10px);
+        box-shadow: 4px 0px 4px 4px #00000042 ;
+    }
+    
+    .animacion4:hover {
+        transform: translate(0px, -10px);
+        box-shadow: 0px 4px 0px 4px #00000042 ;
+    }
+
+    .animacion5:hover {
+        transform: skewy(1deg);
+    }
+    
+    .animacion6:hover {
+        transform: skewy(-1deg);
     }
 }
 
