@@ -9,142 +9,144 @@
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fira+Sans+Extra+Condensed:wght@100;200;300;400;500;600;700&family=Lato:ital,wght@0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <div class="encabezado">
-            <ul class="calendario">
-                <li class="fecha">01/01/22</li>
-                <li class="hora">11:11</li>
+<body class="container-fluid">
+    <header class="row justify-content-center">
+        <div class="header row justify-content-start my-2">
+            <ul class="heading d-none">
+                <li class="">01/01/22</li>
+                <li class="">11:11</li>
             </ul>
-            <a class="buscar" href="">
-                <img src="../img/lupa.png" alt="buscador" class="lupa">
-            </a>
+            <div class="col-2 col-sm-1 lupa "><a class="" href="">
+                <img src="../img/lupa.png" alt="buscador" class="img-fluid col-lg-4 col-sm-8 col-8">
+            </a></div>
         </div>
-        <div class="encabezado-logo">
+        <div class="col-4 col-sm-2 mb-3">
             <a  href="../index.html">
-                <img src="../img/logo.png" alt="logo de EL Barón De La Noticia" class="logo">
+                <img src="../img/logo.png" alt="logo de EL Barón De La Noticia" class="img-fluid">
             </a>
         </div>
     </header>
-    <nav class="menu">
-    <ul class="navegacion">
-        <li><a href="page-salud.html">SALUD</a></li>
-        <li class="lista-nav"><a href="page-economia.html">ECONOMIA</a></li>
-        <li class="lista-nav"><a href="page-cultura.html">CULTURA</a></li>
-        <li class="lista-nav"><a href="page-tecnologia-y-ciencia.html">TECNOLOGIA Y CIENCIA</a></li>
-        <li class="lista-nav"><a href="page-internacional.html">INTERNACIONAL</a></li>
-        <li class="lista-nav"><a href="page-deportes.html">DEPORTES</a></li>
-        <li class="lista-nav"><a href="page-policial.html">POLICIAL</a></li>
-    </ul>
+    <nav class="nav d-sm-flex justify-content-sm-center">
+        <ul class="d-flex flex-row flex-sm-wrap menu align-items-center p-sm-2 justify-content-sm-center">
+            <li><a href="page-salud.html">SALUD</a></li>
+            <li class=""><a href="page-economia.html">ECONOMIA</a></li>
+            <li class=""><a href="page-cultura.html">CULTURA</a></li>
+            <li class=""><a href="page-tecnologia-y-ciencia.html">TECNOLOGIA Y CIENCIA</a></li>
+            <li class=""><a href="page-internacional.html">INTERNACIONAL</a></li>
+            <li class=""><a href="page-deportes.html">DEPORTES</a></li>
+            <li class=""><a href="page-policial.html">POLICIAL</a></li>
+        </ul>
     </nav>
     <main>
-        <section class="section-noticias-page">
-            <div class="section-noticias-page-titulo">
-                <h1>POLICIAL</h1>
+        <section class="my-4">
+            <div class="div-titulo">
+                <h1 class="titulo-page-noticias">POLICIAL</h1>
             </div>
-            <div class="section-noticias-all">
-                <article class="noticias-page">
-                    <a href=""><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ex?</strong>
-                    <div>
-                        <img src="../img/foto-noticia.jpg" alt="noticia"></a>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam totam quia, repellendus, dicta suscipit, at doloremque harum sequi nihil earum tempore quas! Suscipit ullam, sunt maiores in cumque earum accusamus, aut officiis magnam expedita quisquam molestiae quaerat adipisci ad sit omnis eligendi eum cum. Vel earum eius laudantium provident laborum aliquam voluptatibus vero reprehenderit consequatur repellendus molestiae repudiandae dicta dolores facere illo labore distinctio quam ipsum sint, dolorum nisi explicabo voluptate magnam laboriosam. Quisquam, sunt delectus? Molestias vel debitis saepe possimus nesciunt magni quasi, alias, exercitationem doloremque nihil non esse minus dignissimos odit nisi ducimus maxime similique soluta omnis explicabo!</p>
+            <div class="">
+                <article class="my-5 article-noticia">
+                    <a class="noticia-en-page-titulo" href=""><strong class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ex?</strong>
+                    <div class="noticia-en-page d-flex flex-column">
+                        <img class="img-fluid" src="../img/foto-noticia.jpg" alt="noticia"></a>
+                        <p class="noticia-en-page-info mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam totam quia, repellendus, dicta suscipit, at doloremque harum sequi nihil earum tempore quas! Suscipit ullam, sunt maiores in cumque earum accusamus, aut officiis magnam expedita quisquam molestiae quaerat adipisci ad sit omnis eligendi eum cum. Vel earum eius laudantium provident laborum aliquam voluptatibus vero reprehenderit consequatur repellendus molestiae repudiandae dicta dolores facere illo labore distinctio quam ipsum sint, dolorum nisi explicabo voluptate magnam laboriosam. Quisquam, sunt delectus? Molestias vel debitis saepe possimus nesciunt magni quasi, alias, exercitationem doloremque nihil non esse minus dignissimos odit nisi ducimus maxime similique soluta omnis explicabo!</p>
                     </div>
                 </article>
-                <article class="noticias-page noticias-page-2">
-                    <a href=""><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ex?</strong>
-                    <div>
-                        <img src="../img/foto-noticia.jpg" alt="noticia"></a>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam totam quia, repellendus, dicta suscipit, at doloremque harum sequi nihil earum tempore quas! Suscipit ullam, sunt maiores in cumque earum accusamus, aut officiis magnam expedita quisquam molestiae quaerat adipisci ad sit omnis eligendi eum cum. Vel earum eius laudantium provident laborum aliquam voluptatibus vero reprehenderit consequatur repellendus molestiae repudiandae dicta dolores facere illo labore distinctio quam ipsum sint, dolorum nisi explicabo voluptate magnam laboriosam. Quisquam, sunt delectus? Molestias vel debitis saepe possimus nesciunt magni quasi, alias, exercitationem doloremque nihil non esse minus dignissimos odit nisi ducimus maxime similique soluta omnis explicabo!</p>
+                <article class="my-5 article-noticia">
+                    <a class="noticia-en-page-titulo" href=""><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ex?</strong>
+                    <div class="noticia-en-page d-flex flex-column">
+                        <img class="img-fluid" src="../img/foto-noticia.jpg" alt="noticia"></a>
+                        <p class="noticia-en-page-info mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam totam quia, repellendus, dicta suscipit, at doloremque harum sequi nihil earum tempore quas! Suscipit ullam, sunt maiores in cumque earum accusamus, aut officiis magnam expedita quisquam molestiae quaerat adipisci ad sit omnis eligendi eum cum. Vel earum eius laudantium provident laborum aliquam voluptatibus vero reprehenderit consequatur repellendus molestiae repudiandae dicta dolores facere illo labore distinctio quam ipsum sint, dolorum nisi explicabo voluptate magnam laboriosam. Quisquam, sunt delectus? Molestias vel debitis saepe possimus nesciunt magni quasi, alias, exercitationem doloremque nihil non esse minus dignissimos odit nisi ducimus maxime similique soluta omnis explicabo!</p>
                     </div>
                 </article>
-                <article class="noticias-page noticias-page-2">
-                    <a href=""><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ex?</strong>
-                    <div>
-                        <img src="../img/foto-noticia.jpg" alt="noticia"></a>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam totam quia, repellendus, dicta suscipit, at doloremque harum sequi nihil earum tempore quas! Suscipit ullam, sunt maiores in cumque earum accusamus, aut officiis magnam expedita quisquam molestiae quaerat adipisci ad sit omnis eligendi eum cum. Vel earum eius laudantium provident laborum aliquam voluptatibus vero reprehenderit consequatur repellendus molestiae repudiandae dicta dolores facere illo labore distinctio quam ipsum sint, dolorum nisi explicabo voluptate magnam laboriosam. Quisquam, sunt delectus? Molestias vel debitis saepe possimus nesciunt magni quasi, alias, exercitationem doloremque nihil non esse minus dignissimos odit nisi ducimus maxime similique soluta omnis explicabo!</p>
+                <article class="my-5 article-noticia">
+                    <a class="noticia-en-page-titulo" href=""><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ex?</strong>
+                    <div class="noticia-en-page d-flex flex-column">
+                        <img class="img-fluid" src="../img/foto-noticia.jpg" alt="noticia"></a>
+                        <p class="noticia-en-page-info mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam totam quia, repellendus, dicta suscipit, at doloremque harum sequi nihil earum tempore quas! Suscipit ullam, sunt maiores in cumque earum accusamus, aut officiis magnam expedita quisquam molestiae quaerat adipisci ad sit omnis eligendi eum cum. Vel earum eius laudantium provident laborum aliquam voluptatibus vero reprehenderit consequatur repellendus molestiae repudiandae dicta dolores facere illo labore distinctio quam ipsum sint, dolorum nisi explicabo voluptate magnam laboriosam. Quisquam, sunt delectus? Molestias vel debitis saepe possimus nesciunt magni quasi, alias, exercitationem doloremque nihil non esse minus dignissimos odit nisi ducimus maxime similique soluta omnis explicabo!</p>
                     </div>
                 </article>
-                <article class="noticias-page noticias-page-2">
-                    <a href=""><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ex?</strong>
-                    <div>
-                        <img src="../img/foto-noticia.jpg" alt="noticia"></a>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam totam quia, repellendus, dicta suscipit, at doloremque harum sequi nihil earum tempore quas! Suscipit ullam, sunt maiores in cumque earum accusamus, aut officiis magnam expedita quisquam molestiae quaerat adipisci ad sit omnis eligendi eum cum. Vel earum eius laudantium provident laborum aliquam voluptatibus vero reprehenderit consequatur repellendus molestiae repudiandae dicta dolores facere illo labore distinctio quam ipsum sint, dolorum nisi explicabo voluptate magnam laboriosam. Quisquam, sunt delectus? Molestias vel debitis saepe possimus nesciunt magni quasi, alias, exercitationem doloremque nihil non esse minus dignissimos odit nisi ducimus maxime similique soluta omnis explicabo!</p>
+                <article class="my-5 article-noticia">
+                    <a class="noticia-en-page-titulo" href=""><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ex?</strong>
+                    <div class="noticia-en-page d-flex flex-column">
+                        <img class="img-fluid" src="../img/foto-noticia.jpg" alt="noticia"></a>
+                        <p class="noticia-en-page-info mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam totam quia, repellendus, dicta suscipit, at doloremque harum sequi nihil earum tempore quas! Suscipit ullam, sunt maiores in cumque earum accusamus, aut officiis magnam expedita quisquam molestiae quaerat adipisci ad sit omnis eligendi eum cum. Vel earum eius laudantium provident laborum aliquam voluptatibus vero reprehenderit consequatur repellendus molestiae repudiandae dicta dolores facere illo labore distinctio quam ipsum sint, dolorum nisi explicabo voluptate magnam laboriosam. Quisquam, sunt delectus? Molestias vel debitis saepe possimus nesciunt magni quasi, alias, exercitationem doloremque nihil non esse minus dignissimos odit nisi ducimus maxime similique soluta omnis explicabo!</p>
                     </div>
                 </article>
-                <article class="noticias-page noticias-page-2">
-                    <a href=""><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ex?</strong>
-                    <div>
-                        <img src="../img/foto-noticia.jpg" alt="noticia"></a>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam totam quia, repellendus, dicta suscipit, at doloremque harum sequi nihil earum tempore quas! Suscipit ullam, sunt maiores in cumque earum accusamus, aut officiis magnam expedita quisquam molestiae quaerat adipisci ad sit omnis eligendi eum cum. Vel earum eius laudantium provident laborum aliquam voluptatibus vero reprehenderit consequatur repellendus molestiae repudiandae dicta dolores facere illo labore distinctio quam ipsum sint, dolorum nisi explicabo voluptate magnam laboriosam. Quisquam, sunt delectus? Molestias vel debitis saepe possimus nesciunt magni quasi, alias, exercitationem doloremque nihil non esse minus dignissimos odit nisi ducimus maxime similique soluta omnis explicabo!</p>
+                <article class="my-5 article-noticia">
+                    <a class="noticia-en-page-titulo" href=""><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ex?</strong>
+                    <div class="noticia-en-page d-flex flex-column">
+                        <img class="img-fluid" src="../img/foto-noticia.jpg" alt="noticia"></a>
+                        <p class="noticia-en-page-info mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam totam quia, repellendus, dicta suscipit, at doloremque harum sequi nihil earum tempore quas! Suscipit ullam, sunt maiores in cumque earum accusamus, aut officiis magnam expedita quisquam molestiae quaerat adipisci ad sit omnis eligendi eum cum. Vel earum eius laudantium provident laborum aliquam voluptatibus vero reprehenderit consequatur repellendus molestiae repudiandae dicta dolores facere illo labore distinctio quam ipsum sint, dolorum nisi explicabo voluptate magnam laboriosam. Quisquam, sunt delectus? Molestias vel debitis saepe possimus nesciunt magni quasi, alias, exercitationem doloremque nihil non esse minus dignissimos odit nisi ducimus maxime similique soluta omnis explicabo!</p>
                     </div>
                 </article>
-                <article class="noticias-page noticias-page-2">
-                    <a href=""><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ex?</strong>
-                    <div>
-                        <img src="../img/foto-noticia.jpg" alt="noticia"></a>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam totam quia, repellendus, dicta suscipit, at doloremque harum sequi nihil earum tempore quas! Suscipit ullam, sunt maiores in cumque earum accusamus, aut officiis magnam expedita quisquam molestiae quaerat adipisci ad sit omnis eligendi eum cum. Vel earum eius laudantium provident laborum aliquam voluptatibus vero reprehenderit consequatur repellendus molestiae repudiandae dicta dolores facere illo labore distinctio quam ipsum sint, dolorum nisi explicabo voluptate magnam laboriosam. Quisquam, sunt delectus? Molestias vel debitis saepe possimus nesciunt magni quasi, alias, exercitationem doloremque nihil non esse minus dignissimos odit nisi ducimus maxime similique soluta omnis explicabo!</p>
+                <article class="my-5 article-noticia">
+                    <a class="noticia-en-page-titulo" href=""><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ex?</strong>
+                    <div class="noticia-en-page d-flex flex-column">
+                        <img class="img-fluid" src="../img/foto-noticia.jpg" alt="noticia"></a>
+                        <p class="noticia-en-page-info mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam totam quia, repellendus, dicta suscipit, at doloremque harum sequi nihil earum tempore quas! Suscipit ullam, sunt maiores in cumque earum accusamus, aut officiis magnam expedita quisquam molestiae quaerat adipisci ad sit omnis eligendi eum cum. Vel earum eius laudantium provident laborum aliquam voluptatibus vero reprehenderit consequatur repellendus molestiae repudiandae dicta dolores facere illo labore distinctio quam ipsum sint, dolorum nisi explicabo voluptate magnam laboriosam. Quisquam, sunt delectus? Molestias vel debitis saepe possimus nesciunt magni quasi, alias, exercitationem doloremque nihil non esse minus dignissimos odit nisi ducimus maxime similique soluta omnis explicabo!</p>
                     </div>
                 </article>
-                <article class="noticias-page noticias-page-2">
-                    <a href=""><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ex?</strong>
-                    <div>
-                        <img src="../img/foto-noticia.jpg" alt="noticia"></a>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam totam quia, repellendus, dicta suscipit, at doloremque harum sequi nihil earum tempore quas! Suscipit ullam, sunt maiores in cumque earum accusamus, aut officiis magnam expedita quisquam molestiae quaerat adipisci ad sit omnis eligendi eum cum. Vel earum eius laudantium provident laborum aliquam voluptatibus vero reprehenderit consequatur repellendus molestiae repudiandae dicta dolores facere illo labore distinctio quam ipsum sint, dolorum nisi explicabo voluptate magnam laboriosam. Quisquam, sunt delectus? Molestias vel debitis saepe possimus nesciunt magni quasi, alias, exercitationem doloremque nihil non esse minus dignissimos odit nisi ducimus maxime similique soluta omnis explicabo!</p>
+                <article class="my-5 article-noticia">
+                    <a class="noticia-en-page-titulo" href=""><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ex?</strong>
+                    <div class="noticia-en-page d-flex flex-column">
+                        <img class="img-fluid" src="../img/foto-noticia.jpg" alt="noticia"></a>
+                        <p class="noticia-en-page-info mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam totam quia, repellendus, dicta suscipit, at doloremque harum sequi nihil earum tempore quas! Suscipit ullam, sunt maiores in cumque earum accusamus, aut officiis magnam expedita quisquam molestiae quaerat adipisci ad sit omnis eligendi eum cum. Vel earum eius laudantium provident laborum aliquam voluptatibus vero reprehenderit consequatur repellendus molestiae repudiandae dicta dolores facere illo labore distinctio quam ipsum sint, dolorum nisi explicabo voluptate magnam laboriosam. Quisquam, sunt delectus? Molestias vel debitis saepe possimus nesciunt magni quasi, alias, exercitationem doloremque nihil non esse minus dignissimos odit nisi ducimus maxime similique soluta omnis explicabo!</p>
                     </div>
                 </article>
-                <article class="noticias-page noticias-page-2">
-                    <a href=""><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ex?</strong>
-                    <div>
-                        <img src="../img/foto-noticia.jpg" alt="noticia"></a>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam totam quia, repellendus, dicta suscipit, at doloremque harum sequi nihil earum tempore quas! Suscipit ullam, sunt maiores in cumque earum accusamus, aut officiis magnam expedita quisquam molestiae quaerat adipisci ad sit omnis eligendi eum cum. Vel earum eius laudantium provident laborum aliquam voluptatibus vero reprehenderit consequatur repellendus molestiae repudiandae dicta dolores facere illo labore distinctio quam ipsum sint, dolorum nisi explicabo voluptate magnam laboriosam. Quisquam, sunt delectus? Molestias vel debitis saepe possimus nesciunt magni quasi, alias, exercitationem doloremque nihil non esse minus dignissimos odit nisi ducimus maxime similique soluta omnis explicabo!</p>
+                <article class="my-5 article-noticia">
+                    <a class="noticia-en-page-titulo" href=""><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ex?</strong>
+                    <div class="noticia-en-page d-flex flex-column">
+                        <img class="img-fluid" src="../img/foto-noticia.jpg" alt="noticia"></a>
+                        <p class="noticia-en-page-info mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam totam quia, repellendus, dicta suscipit, at doloremque harum sequi nihil earum tempore quas! Suscipit ullam, sunt maiores in cumque earum accusamus, aut officiis magnam expedita quisquam molestiae quaerat adipisci ad sit omnis eligendi eum cum. Vel earum eius laudantium provident laborum aliquam voluptatibus vero reprehenderit consequatur repellendus molestiae repudiandae dicta dolores facere illo labore distinctio quam ipsum sint, dolorum nisi explicabo voluptate magnam laboriosam. Quisquam, sunt delectus? Molestias vel debitis saepe possimus nesciunt magni quasi, alias, exercitationem doloremque nihil non esse minus dignissimos odit nisi ducimus maxime similique soluta omnis explicabo!</p>
                     </div>
                 </article>
-                <article class="noticias-page noticias-page-2">
-                    <a href=""><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ex?</strong>
-                    <div>
-                        <img src="../img/foto-noticia.jpg" alt="noticia"></a>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam totam quia, repellendus, dicta suscipit, at doloremque harum sequi nihil earum tempore quas! Suscipit ullam, sunt maiores in cumque earum accusamus, aut officiis magnam expedita quisquam molestiae quaerat adipisci ad sit omnis eligendi eum cum. Vel earum eius laudantium provident laborum aliquam voluptatibus vero reprehenderit consequatur repellendus molestiae repudiandae dicta dolores facere illo labore distinctio quam ipsum sint, dolorum nisi explicabo voluptate magnam laboriosam. Quisquam, sunt delectus? Molestias vel debitis saepe possimus nesciunt magni quasi, alias, exercitationem doloremque nihil non esse minus dignissimos odit nisi ducimus maxime similique soluta omnis explicabo!</p>
+                <article class="my-5 article-noticia">
+                    <a class="noticia-en-page-titulo" href=""><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ex?</strong>
+                    <div class="noticia-en-page d-flex flex-column">
+                        <img class="img-fluid" src="../img/foto-noticia.jpg" alt="noticia"></a>
+                        <p class="noticia-en-page-info mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam totam quia, repellendus, dicta suscipit, at doloremque harum sequi nihil earum tempore quas! Suscipit ullam, sunt maiores in cumque earum accusamus, aut officiis magnam expedita quisquam molestiae quaerat adipisci ad sit omnis eligendi eum cum. Vel earum eius laudantium provident laborum aliquam voluptatibus vero reprehenderit consequatur repellendus molestiae repudiandae dicta dolores facere illo labore distinctio quam ipsum sint, dolorum nisi explicabo voluptate magnam laboriosam. Quisquam, sunt delectus? Molestias vel debitis saepe possimus nesciunt magni quasi, alias, exercitationem doloremque nihil non esse minus dignissimos odit nisi ducimus maxime similique soluta omnis explicabo!</p>
                     </div>
                 </article>
-                <article class="noticias-page noticias-page-2">
-                    <a href=""><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ex?</strong>
-                    <div>
-                        <img src="../img/foto-noticia.jpg" alt="noticia"></a>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam totam quia, repellendus, dicta suscipit, at doloremque harum sequi nihil earum tempore quas! Suscipit ullam, sunt maiores in cumque earum accusamus, aut officiis magnam expedita quisquam molestiae quaerat adipisci ad sit omnis eligendi eum cum. Vel earum eius laudantium provident laborum aliquam voluptatibus vero reprehenderit consequatur repellendus molestiae repudiandae dicta dolores facere illo labore distinctio quam ipsum sint, dolorum nisi explicabo voluptate magnam laboriosam. Quisquam, sunt delectus? Molestias vel debitis saepe possimus nesciunt magni quasi, alias, exercitationem doloremque nihil non esse minus dignissimos odit nisi ducimus maxime similique soluta omnis explicabo!</p>
+                <article class="my-5 article-noticia">
+                    <a class="noticia-en-page-titulo" href=""><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ex?</strong>
+                    <div class="noticia-en-page d-flex flex-column">
+                        <img class="img-fluid" src="../img/foto-noticia.jpg" alt="noticia"></a>
+                        <p class="noticia-en-page-info mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam totam quia, repellendus, dicta suscipit, at doloremque harum sequi nihil earum tempore quas! Suscipit ullam, sunt maiores in cumque earum accusamus, aut officiis magnam expedita quisquam molestiae quaerat adipisci ad sit omnis eligendi eum cum. Vel earum eius laudantium provident laborum aliquam voluptatibus vero reprehenderit consequatur repellendus molestiae repudiandae dicta dolores facere illo labore distinctio quam ipsum sint, dolorum nisi explicabo voluptate magnam laboriosam. Quisquam, sunt delectus? Molestias vel debitis saepe possimus nesciunt magni quasi, alias, exercitationem doloremque nihil non esse minus dignissimos odit nisi ducimus maxime similique soluta omnis explicabo!</p>
                     </div>
                 </article>
             </div>
         </section>
-        <div class="siguiente">
-            <a href="page-cultura2.html"><img src="../img/siguiente.png" alt="Siguiente pagina"></a>
+        <div class="row justify-content-end">
+            <a class="col-4" href="page-policial2.html"><img class="img-fluid" src="../img/siguiente.png" alt="Siguiente pagina"></a>
         </div>
-        <aside>
-            <a href=""><img src="../img/publicidad.jpg" alt="publicidad"></a>
+        <aside class="mt-5">
+            <a class="d-flex" href=""><img class="w-100" src="img/publicidad.jpg" alt="publicidad"></a>
         </aside>
     </main>
-    <footer>
-        <div class="nosotros">
-            <ul>
-                <li><a class="quienes-somos" href="quienes-somos.html">
-                    <img class="quienes-somos-img" src="../img/quienesomos.png" alt="quienes somos">
-                    <span>¿QUIENES SOMOS?</span>
+    <footer >
+        <div class="px-5 py-2">
+            <ul class="row nosotros justify-content-between align-items-center justify-content-sm-around d-lg-flex flex-lg-column align-items-lg-start">
+                <li class="col-2 col-sm-1 nosotros-ancla row-lg"><a class="d-flex flex-column align-items-center img-redes-sociales col-lg-5 my-lg-4" href="quienes-somos.html">
+                    <img class="img-fluid" src="../img/quienesomos.png" alt="quienes somos">
+                    <span class="text-center text-quienes-somos mt-2">¿QUIENES SOMOS?</span>
                 </a></li>
-                <li><a class="contacto" href="contacto.html">
-                    <img src="../img/contacto.png" alt="contacto">
-                    <span>CONTACTANOS</span>
+                <li class="col-2 col-sm-1 row-lg"><a class="d-flex flex-column align-items-center col-lg-5" href="contacto.html">
+                    <img class="img-fluid" src="../img/contacto.png" alt="contacto">
+                    <span class="mt-2">CONTACTANOS</span>
                 </a></li>
             </ul>
         </div>
-        <div class="redes-div">
-            <ul class="redes">
-                <li><a class="redes-iconos" href="https://www.twitter.com" target="_blank"><img src="../img/twitter.png" alt="logo twitter"></a></li>
-                <li><a class="redes-iconos" href="https://www.instagram.com" target="_blank"><img src="../img/instagram.png" alt="logo instagram"></a></li>
-                <li><a class="redes-iconos" href="https://www.facebook.com" target="_blank"><img src="../img/facebook.png" alt="logo facebook"></a></li>
-                <li><a class="redes-iconos" href="https://www.youtube.com" target="_blank"><img src="../img/youtube.png" alt="logo youtube"></a></li>
+        <div class="pb-2 justify-content-lg-end row-lg d-lg-inline-flex">
+            <ul class="redes-sociales row justify-content-evenly align-items-center mt-5 col-lg-6 justify-content-lg-end mx-2 d-lg-inline-flex">
+                <li class="col-2 col-sm-1"><a class="col-8" href="https://www.twitter.com" target="_blank"><img class="img-fluid" src="../img/twitter.png" alt="logo twitter"></a></li>
+                <li class="col-2 col-sm-1"><a class="" href="https://www.instagram.com" target="_blank"><img class="img-fluid" src="../img/instagram.png" alt="logo instagram"></a></li>
+                <li class="col-2 col-sm-1"><a class="" href="https://www.facebook.com" target="_blank"><img class="img-fluid" src="../img/facebook.png" alt="logo facebook"></a></li>
+                <li class="col-2 col-sm-1"><a class="" href="https://www.youtube.com" target="_blank"><img class="img-fluid" src="../img/youtube.png" alt="logo youtube"></a></li>
             </ul>
         </div>
     </footer>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
