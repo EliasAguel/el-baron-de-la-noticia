@@ -1,808 +1,679 @@
-
-
 /*------------------------------------comienzo reseteo------------------------------------*/
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
+
 /*------------------------------------fin reseteo------------------------------------*/
-
-
-
-
-
-
-
 /*------------------------------------comienzo body------------------------------------*/
 .container-fluid {
-    background-color: #D9D9D9;
-}
-/*------------------------------------fin body------------------------------------*/
-
-
-.nav {
-    background-color: #A90000;
-    height: 40px;
-}
-
-.heading {
-    display: none;
-}
-
-.heading-logo {
-    background-color: white;
-}
-
-.menu {
-    list-style: none;
-    overflow-x: scroll;
-    white-space: nowrap;
-    margin: 0;
-    padding: 0;
-}
-
-.menu li a {
-    color: white;
-    text-decoration: none;
-    font-family: 'Fira Sans Extra Condensed', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    margin: 10px;
-}
-
-.menu::-webkit-scrollbar {
-    display: none ;
-}
-
-.titulo-principal {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    font-size: 25px;
-    font-style: none;
-    color: black;
-}
-
-.noticia a {
-    text-decoration: none;
-    color: black;
-}
-
-.noticia a h2 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    font-size: 18px;
+  background-color: #D9D9D9;
 }
 
 .border-img {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
-.noticia-section {
-    width: 50%;
+.heading-logo {
+  background-color: white;
+}
+.heading-logo .heading {
+  display: none;
 }
 
-.titulo-noticia-page {
-    text-decoration: none;
+.nav {
+  background-color: #A90000;
+  height: 40px;
+}
+.nav .menu {
+  list-style: none;
+  overflow-x: scroll;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+}
+.nav .menu::-webkit-scrollbar {
+  display: none;
+}
+.nav .menu li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 10px;
 }
 
-.titulo-noticia-page h4 {
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    color: black;
-}
-
-.titulo-noticia-page:hover {
-    text-decoration: underline;
-    color: black;
-}
-
-.titulo-section {
-    font-family: 'Abril Fatface', cursive;
-    font-weight: 100;
-    font-size: 30px;
-    text-decoration: none;
-}
-
-.ver-todo {
-    color: black;
-    font-family: 'Lato', sans-serif;
-    text-decoration: none;
-}
-
-.ver-todo:hover {
-    text-decoration: underline;
-    color: black;
-}
-
-
+/* REVISAR SI ALGO FALLA*/
 .section-principal {
-    border-bottom: 1px solid black;
-} 
+  border-bottom: 1px solid black;
+}
+.section-principal .noticia-principal {
+  border: 3px solid #e76464;
+  border-radius: 9px;
+}
+.section-principal .noticia-principal .titulo-principal {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  font-style: none;
+  color: black;
+}
+.section-principal .noticia {
+  text-decoration: none;
+  color: black;
+  border: 1px solid #e76464;
+  border-radius: 7px;
+}
+.section-principal .noticia h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
 
 .section {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
-
-.nosotros {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.section .noticias-section .titulo-section {
+  font-family: "Abril Fatface", cursive;
+  font-weight: 100;
+  font-size: 30px;
+  text-decoration: none;
 }
-
-.nosotros span {
-    font-size: 12px;
-    color: white;
+.section .noticias-section .ver-todo {
+  color: black;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
 }
-
-.nosotros li {
-    padding: 0;
-    margin: 0;
+.section .noticias-section .ver-todo:hover {
+  text-decoration: underline;
+  color: black;
 }
-
-.nosotros li a {
-    text-decoration: none;
+.section .noticia-section {
+  width: 50%;
 }
-
-.text-quienes-somos {
-    white-space: nowrap;
+.section .titulo-noticia-page {
+  text-decoration: none;
 }
-
-.redes-sociales {
-    list-style: none;
-    margin: 0;
-    padding: 0; 
-    opacity: 0.6;   
+.section .titulo-noticia-page h4 {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: black;
 }
-
-.redes-sociales-link {
-    margin: 0;
-    padding: 0;
+.section .titulo-noticia-page h4:hover {
+  text-decoration: underline;
+  color: black;
 }
 
 footer {
-    background-color: #A90000;
+  background-color: #A90000;
+}
+footer .nosotros {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer .nosotros li {
+  padding: 0;
+  margin: 0;
+}
+footer .nosotros li a {
+  text-decoration: none;
+}
+footer .nosotros li a .nosotros span {
+  font-size: 12px;
+  color: white;
+}
+footer .nosotros li a .text-quienes-somos {
+  white-space: nowrap;
+}
+
+.redes-sociales {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  opacity: 0.6;
 }
 
 aside a {
-    height: 150px;
-    width: 100%;
-}
-
-
-
-.titulo-page-noticias {
-    font-family: 'Fira Sans Extra Condensed', sans-serif;
-    font-weight: 900;
-    font-size: 35px;
+  height: 150px;
+  width: 100%;
 }
 
 .div-titulo {
-    border-bottom: 3px solid black;
+  border-bottom: 3px solid black;
 }
-
-.noticia-en-page-info {
-    font-family: 'Lato', sans-serif;
-    font-size: 18px;
+.div-titulo .titulo-page-noticias {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 900;
+  font-size: 35px;
 }
-
-.noticia-en-page-titulo {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    font-size: 28px;
-    color: black;
-    text-decoration: none;
-}
-
-.noticia-en-page-titulo:hover {
-    text-decoration: underline;
-}
-
 
 .article-noticia {
-    border-bottom: 1px solid black;
+  border-bottom: 1px solid black;
 }
-
+.article-noticia .noticia-en-page-titulo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 28px;
+  color: black;
+  text-decoration: none;
+}
+.article-noticia .noticia-en-page-titulo:hover {
+  text-decoration: underline;
+  color: black;
+}
+.article-noticia .noticia-en-page-info {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+}
 
 .contactos {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
-
-.item-contacto {
-    width: 80%;
-    height: 40px;
-    border: #A90000 1px solid;
-    border-radius: 10px;
-    background-color: white;
+.contactos .item-contacto {
+  width: 80%;
+  height: 40px;
+  border: #A90000 1px solid;
+  border-radius: 10px;
+  background-color: white;
 }
-
-.item-contacto p {
-    margin: 0;
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
+.contactos .item-contacto p {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
 }
-
 
 .como-surgio {
-    font-family: 'Fira Sans Extra Condensed', sans-serif;
-    font-weight: 500;
-    font-size: 26px;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 500;
+  font-size: 26px;
 }
 
-
 .info-como-surgio {
-    font-family: 'Lato', sans-serif;
-    font-weight: 100;
-    font-size: 15px;
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-size: 15px;
 }
 
 .quienes-trabajamos {
-    font-family: 'Fira Sans Extra Condensed', sans-serif;
-    font-weight: 500;
-    font-size: 22px;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
 }
-
-.noticia-principal {
-    border: 3px solid #e76464 ;
-    border-radius: 9px;
-}
-
-.noticia{
-    border: 1px solid #e76464 ;
-    border-radius: 7px;
-}
-
 
 .descripcion-persona {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    white-space: nowrap;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  white-space: nowrap;
 }
 
 .oficio-persona {
-    font-family: 'Lato', sans-serif;
-    font-weight: 100;
-    font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-size: 16px;
 }
 
 .parrafo-noticia p {
-    font-family: 'Lato', sans-serif;
-    font-weight: 100;
-    font-size: 15px;
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-size: 15px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*------------------------------------comienzo de animaciones------------------------------------*/
-
 .animacion1 {
-    transition: all 0.38s;
+  transition: all 0.38s;
 }
 
 .animacion2 {
-    transition: all 0.38s;
+  transition: all 0.38s;
 }
 
 .animacion3 {
-    transition: all 0.38s;
+  transition: all 0.38s;
 }
 
 .animacion4 {
-    transition: all 0.38s;
+  transition: all 0.38s;
 }
 
 .animacion5 {
-    transition: all 0.38s;
+  transition: all 0.38s;
 }
 
 .animacion6 {
-    transition: all 0.38s;
+  transition: all 0.38s;
 }
 
 .noticia-en-page img {
-    transition: all 0.38s;
+  transition: all 0.38s;
 }
 
 .animacion7 {
-    transition: all 0.38s;
+  transition: all 0.38s;
 }
-
 
 .animacion1:hover {
-    transform: translate(0px, -10px) scale(1.04);
-    box-shadow: 0px 3px 0px 0px #0000001c;
+  transform: translate(0px, -10px) scale(1.04);
+  box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.1098039216);
 }
-
 
 .animacion2:hover {
-    transform: translate(0px, -8px) scale(1.02);
-    box-shadow: 0px 4px 0px 4px #0000001c;
+  transform: translate(0px, -8px) scale(1.02);
+  box-shadow: 0px 4px 0px 4px rgba(0, 0, 0, 0.1098039216);
 }
 
-
 .animacion3:hover {
-    transform: translate(0px, -70px) scale(1.3);
-    ;
+  transform: translate(0px, -70px) scale(1.3);
 }
 
 .animacion4:hover {
-    transform: skewy(2deg);
+  transform: skewy(2deg);
 }
 
-
 .animacion5:hover {
-    transform: skewy(-2deg);
+  transform: skewy(-2deg);
 }
 
 .animacion6:hover {
-    transform: scale(1.05);
-}
-
-.noticia-en-page-titulo:hover {
-    color: black;
+  transform: scale(1.05);
 }
 
 .noticia-en-page img:hover {
-    transform: scale(1.06);
+  transform: scale(1.06);
 }
 
 .animacion7:hover {
-    transform: translate(0px, -8px) scale(1.06);
-    box-shadow: 0px 2px 0px 0px #0000001c;
+  transform: translate(0px, -8px) scale(1.06);
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1098039216);
 }
 
 /*------------------------------------fin de animaciones------------------------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 576px) {
-    .menu {
-        list-style: none;
-        overflow-x:hidden;
-        white-space:none;
-    }
+  .menu {
+    list-style: none;
+    overflow-x: hidden;
+    white-space: none;
+  }
 
-    .nav {
-        height: auto;
-    }
+  .nav {
+    height: auto;
+  }
 
-    .nosotros span {
-        font-size: 12px;
-    }
-    
-    .titulo-principal {
-        font-size: 28px;
-    }
+  .nosotros span {
+    font-size: 12px;
+  }
 
-    .noticias-section {
-        border-bottom: 1px solid black;
-    }
+  .titulo-principal {
+    font-size: 28px;
+  }
 
-    .titulo-section {
-        margin: 0;
-        padding-right: 8px;
-        border-bottom: 3px solid black;
-        font-size: 36px;
-    }
+  .noticias-section {
+    border-bottom: 1px solid black;
+  }
 
-    .noticia a h2 {
-        font-size: 22px;
-        font-weight: 500;
-    } 
+  .titulo-section {
+    margin: 0;
+    padding-right: 8px;
+    border-bottom: 3px solid black;
+    font-size: 36px;
+  }
 
-    .titulo-noticia-page h4 {
-        font-size: 18px;
-    }
+  .noticia a h2 {
+    font-size: 22px;
+    font-weight: 500;
+  }
 
-    .descripcion-persona {
-        font-size: 20px;
-    }
-    
-    .oficio-persona {
-        font-size: 17px;
-    }
+  .titulo-noticia-page h4 {
+    font-size: 18px;
+  }
 
+  .descripcion-persona {
+    font-size: 20px;
+  }
+
+  .oficio-persona {
+    font-size: 17px;
+  }
 }
-
-
 @media (min-width: 768px) {
+  .titulo-principal {
+    font-size: 34px;
+    text-decoration: none;
+  }
 
-    .titulo-principal {
-        font-size: 34px;
-        text-decoration: none;
-    }
+  .noticia-titulo {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: black;
+  }
 
-    .noticia-titulo {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 600;
-        font-size: 25px;
-        color: black;
-    }
+  .info-noticia-principal {
+    color: rgb(104, 104, 104);
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+  }
 
-    .info-noticia-principal {
-        color: rgb(104, 104, 104);
-        font-family: 'Lato', sans-serif;
-        font-weight: 100;
-        font-size: 14px;
-    }
+  .titulo-noticia-page h4 {
+    font-size: 22px;
+  }
 
-    .titulo-noticia-page h4 {
-        font-size: 22px;
-    }
+  .bg {
+    background-color: #A90000;
+  }
 
-    .bg {
-        background-color: #A90000;
-    }
+  .titulo-section {
+    font-size: 40px;
+  }
 
-    .titulo-section {
-        font-size: 40px;
-    }
+  .ver-todo {
+    font-size: 20px;
+  }
 
-    .ver-todo {
-        font-size: 20px;
-    }
-    .como-surgio {
-        font-size: 26px;
-    }
-    
-    .info-como-surgio {
-        font-size: 18px;
-    }
-    
-    .quienes-trabajamos {
-        font-size: 26px;
-    }
+  .como-surgio {
+    font-size: 26px;
+  }
 
-    .titulo-page-noticias {
-        display: inline;
-        font-size: 40px;
-        border-bottom: 8px solid black;
-        padding-right: 20px;
-        
-    }
+  .info-como-surgio {
+    font-size: 18px;
+  }
 
-    .descripcion-persona {
-        font-size: 22px;
-    }
-    
-    .oficio-persona {
-        font-size: 18px;
-    }
+  .quienes-trabajamos {
+    font-size: 26px;
+  }
 
-    .parrafo-noticia p {
-        font-size: 18px;
-    }
+  .titulo-page-noticias {
+    display: inline;
+    font-size: 40px;
+    border-bottom: 8px solid black;
+    padding-right: 20px;
+  }
 
-    aside a {
-        height: 200px;
-    }
+  .descripcion-persona {
+    font-size: 22px;
+  }
 
+  .oficio-persona {
+    font-size: 18px;
+  }
+
+  .parrafo-noticia p {
+    font-size: 18px;
+  }
+
+  aside a {
+    height: 200px;
+  }
 }
-
-
 @media (min-width: 992px) {
+  .nav {
+    height: 45px;
+  }
 
-    .nav {
-        height: 45px;
-    }
+  .menu li a {
+    font-size: 18px;
+  }
 
+  .redes-sociales {
+    padding: 0;
+    margin: 0;
+  }
 
-    .menu li a {
-        font-size: 18px;
-    }
+  .titulo-principal {
+    font-size: 50px;
+  }
 
-    .redes-sociales {
-        padding: 0;
-        margin: 0;
-    }
+  .noticia-titulo {
+    font-size: 42px;
+  }
 
-    .titulo-principal {
-        font-size: 50px;
-    }
+  .info-noticia-principal {
+    font-size: 18px;
+  }
 
-    .noticia-titulo {
-        font-size: 42px ;
-    }
+  .titulo-noticia-page h4 {
+    font-size: 20px;
+  }
 
-    .info-noticia-principal {
-        font-size: 18px ;
-    }
+  .titulo-section {
+    font-size: 30px;
+  }
 
-    .titulo-noticia-page h4 {
-        font-size: 20px;
-    }
+  .ver-todo {
+    font-size: 20px;
+  }
 
-    .titulo-section {
-        font-size: 30px;
-    }
+  .titulo-section {
+    font-size: 50px;
+  }
 
-    .ver-todo {
-        font-size: 20px;
-    }
-    .titulo-section {
-        font-size: 50px;
-    }
+  .como-surgio {
+    font-size: 28px;
+  }
 
-    .como-surgio {
-        font-size: 28px;
-    }
-    
-    .info-como-surgio {
-        font-size: 18px;
-    }
-    
-    .quienes-trabajamos {
-        font-size: 28px;
-    }
+  .info-como-surgio {
+    font-size: 18px;
+  }
 
-    .titulo-page-noticias {
-        font-size: 45px;
-    }
+  .quienes-trabajamos {
+    font-size: 28px;
+  }
 
-    .noticia-en-page img {
-        width: 100%;
-    }
+  .titulo-page-noticias {
+    font-size: 45px;
+  }
 
-    .noticia-en-page-info {
-        font-size: 16px;
-    }
+  .noticia-en-page img {
+    width: 100%;
+  }
 
-    aside a {
-        height: 250px;
-    }
+  .noticia-en-page-info {
+    font-size: 16px;
+  }
+
+  aside a {
+    height: 250px;
+  }
 }
+@media (min-width: 1200px) {
+  .header {
+    background-color: #e76464;
+    height: 35px;
+  }
 
+  .heading {
+    list-style: none;
+    background-color: #D9D9D9;
+    width: 200px;
+    height: 24px;
+    border-radius: 10px;
+  }
 
-@media (min-width: 1200px){
-    
-    .header {
-        background-color:#e76464 ;
-        height: 35px;
-    }
+  .heading li {
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
 
-    .heading {
-        list-style: none;
-        background-color: #D9D9D9;
-        width: 200px;
-        height: 24px;
-        border-radius: 10px; 
-    }
+  .nav {
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    height: 50px;
+  }
 
-    .heading li {
-        font-family: 'Fira Sans Extra Condensed', sans-serif;
-        font-weight: 400;
-        font-size: 18px;
-        letter-spacing: 1px;
-        
-    }
+  .menu li a {
+    font-size: 20px;
+  }
 
+  .section-2 {
+    background-image: url(../../img/fondo-noticias-principal.jpg);
+  }
 
-    .nav {
-        position: sticky;
-        top: 0px;
-        z-index: 10;
-        height: 50px;
-    }
+  .ancla-titulo-noticia {
+    text-decoration: none;
+  }
 
+  .ancla-titulo-noticia h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: black;
+  }
 
-    .menu li a {
-        font-size: 20px;
-    }
+  .titulo-principal {
+    font-size: 60px;
+  }
 
-    .section-2 {
-        background-image: url(../../img/fondo-noticias-principal.jpg);
-    }
+  .noticia-titulo {
+    font-size: 45px;
+  }
 
-    .ancla-titulo-noticia {
-        text-decoration: none;
-    }
+  .info-noticia-principal {
+    font-size: 18px;
+  }
 
-    .ancla-titulo-noticia h4 {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 600;
-        font-size: 30px;
-        color: black;
-    }
+  .ver-todo {
+    font-size: 22px;
+  }
 
-    .titulo-principal {
-        font-size: 60px;
-    }
+  .como-surgio {
+    font-size: 32px;
+  }
 
-    .noticia-titulo {
-        font-size: 45px ;
-    }
+  .info-como-surgio {
+    font-size: 18px;
+  }
 
-    .info-noticia-principal {
-        font-size: 18px ;
-    }
+  .quienes-trabajamos {
+    font-size: 32px;
+  }
 
-    .ver-todo {
-        font-size: 22px;
-    }
+  .titulo-page-noticias {
+    font-size: 50px;
+  }
 
-    .como-surgio {
-        font-size: 32px;
-    }
-    
-    .info-como-surgio {
-        font-size: 18px;
-    }
-    
-    .quienes-trabajamos {
-        font-size: 32px;
-    }
+  .item-contacto {
+    width: 100%;
+  }
 
-    .titulo-page-noticias {
-        font-size: 50px;
-    }
+  .form {
+    width: 446px;
+  }
 
-    .item-contacto {
-        width: 100%;
+  .textarea {
+    height: 200px;
+  }
 
-    }
+  .input {
+    border: 1px solid #A90000;
+    border-radius: 10px;
+  }
 
-    .form {
-        width: 446px;
-    }
+  .enviar {
+    background-color: #A90000;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    height: 28px;
+  }
 
-    .textarea {
-        height: 200px;
-    }
+  .descripcion-persona {
+    font-size: 20px;
+  }
 
-    .input {
-        border: 1px solid #A90000;
-        border-radius: 10px;
-    }
+  .oficio-persona {
+    font-size: 18px;
+  }
 
-    .enviar {
-        background-color: #A90000;
-        border:none;
-        border-radius: 10px;
-        color: white;
-        height: 28px;
-    }
+  .noticia-en-page-info {
+    font-size: 18px;
+  }
 
-    .descripcion-persona {
-        font-size: 20px;
-    }
-    
-    .oficio-persona {
-        font-size: 18px;
-    }
+  .nosotros span {
+    font-size: 14px;
+  }
 
-    .noticia-en-page-info {
-        font-size: 18px;
-    }
-
-    .nosotros span {
-        font-size: 14px;
-    }
-
-    aside a {
-        height: 300px;
-    }
+  aside a {
+    height: 300px;
+  }
 }
+@media (min-width: 1400px) {
+  .header {
+    height: 40px;
+  }
 
+  .heading {
+    height: 28px;
+  }
 
+  .heading li {
+    font-size: 22px;
+  }
 
+  .nav {
+    height: 55px;
+  }
 
+  .titulo-principal {
+    font-size: 90px;
+  }
 
-@media (min-width: 1400px){
-    .header {
-        height: 40px;
-    }
-    
-    .heading {
-        height: 28px;
-    }
+  .info-noticia-principal {
+    font-size: 22px;
+  }
 
-    .heading li {
-        font-size: 22px;
-    }
+  .noticia-titulo {
+    font-size: 55px;
+  }
 
+  .section-con-noticias {
+    width: 90%;
+  }
 
-    .nav {
-        height: 55px;
-    }
+  .ancla-titulo-noticia h4 {
+    font-size: 38px;
+  }
 
-    .titulo-principal {
-        font-size: 90px;
-    }
+  .nav li a {
+    font-size: 24px;
+  }
 
-    .info-noticia-principal {
-        font-size: 22px;
-    }
+  .titulo-section {
+    font-size: 50px;
+  }
 
-    .noticia-titulo {
-        font-size: 55px;
-    }
+  .como-surgio {
+    font-size: 38px;
+  }
 
-    .section-con-noticias {
-        width: 90%;
-    }
+  .info-como-surgio {
+    font-size: 20px;
+  }
 
-    .ancla-titulo-noticia h4 {
-        font-size: 38px;
-    }
+  .quienes-trabajamos {
+    font-size: 38px;
+  }
 
-    .nav li a {
-        font-size: 24px;
-    }
+  .titulo-page-noticias {
+    font-size: 60px;
+  }
 
-    .titulo-section {
-        font-size: 50px;
-    }
+  .noticia-en-page-info {
+    font-size: 20px;
+  }
 
-    .como-surgio {
-        font-size: 38px;
-    }
-    
-    .info-como-surgio {
-        font-size: 20px;
-    }
-    
-    .quienes-trabajamos {
-        font-size: 38px;
-    }
-
-    .titulo-page-noticias {
-        font-size: 60px;
-    }
-
-    .noticia-en-page-info {
-        font-size: 20px;
-    }
-
-    aside a {
-        height: 340px;
-    }
-}
-
-
+  aside a {
+    height: 340px;
+  }
+}/*# sourceMappingURL=style.css.map */
