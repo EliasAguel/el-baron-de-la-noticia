@@ -9,6 +9,15 @@
 /*------------------------------------fin reseteo------------------------------------*/
 /*------------------------------------comienzo de las variables------------------------------------*/
 /*------------------------------------fin de las variables------------------------------------*/
+/*------------------------------------Comienzo del extend------------------------------------*/
+.titulos, .section-principal .noticia h2, .section-principal .noticia-principal .titulo-principal {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+/*------------------------------------Fin del extend------------------------------------*/
+/*------------------------------------Comienzo del mixins------------------------------------*/
+/*------------------------------------Fin del mixins------------------------------------*/
 /*------------------------------------comienzo body------------------------------------*/
 .container-fluid {
   background-color: #D9D9D9;
@@ -57,8 +66,6 @@
   border-radius: 9px;
 }
 .section-principal .noticia-principal .titulo-principal {
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
   font-size: 25px;
   font-style: none;
   color: black;
@@ -70,8 +77,6 @@
   border-radius: 7px;
 }
 .section-principal .noticia h2 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
   font-size: 18px;
 }
 
@@ -180,8 +185,8 @@ aside a {
   padding: 0;
 }
 .contactos .item-contacto {
-  width: 80%;
   height: 40px;
+  width: 80%;
   border: #A90000 1px solid;
   border-radius: 10px;
   background-color: white;

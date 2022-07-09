@@ -11,11 +11,12 @@
 /*------------------------------------comienzo de las variables------------------------------------*/
 
 
-$ColorRojo : #A90000 ;
-$ColorROjoClaro: #e76464 ;
-$ColorGris : #D9D9D9;
 
-
+$colores: (
+    ColorRojo : #A90000,
+    ColorRojoClaro: #e76464,
+    ColorGris : #D9D9D9,
+);
 
 
 /*------------------------------------fin de las variables------------------------------------*/
@@ -23,9 +24,101 @@ $ColorGris : #D9D9D9;
 
 
 
+
+
+
+
+
+/*------------------------------------Comienzo del extend------------------------------------*/
+
+
+
+.titulos {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+
+
+
+
+/*------------------------------------Fin del extend------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------Comienzo del mixins------------------------------------*/
+
+
+
+@mixin tamaño ($altura, $ancho) {
+    height: $altura ;
+    width: $ancho ;
+}
+
+
+
+
+
+/*------------------------------------Fin del mixins------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*------------------------------------comienzo body------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
 .container-fluid {
-    background-color: $ColorGris;
+    background-color: map-get($colores , ColorGris );
 }
 
 
@@ -54,7 +147,7 @@ $ColorGris : #D9D9D9;
 
 
 .nav {
-    background-color:$ColorRojo;
+    background-color: map-get($colores , ColorRojo );
     height: 40px;
 
     .menu {
@@ -88,12 +181,11 @@ $ColorGris : #D9D9D9;
     border-bottom: 1px solid black;
 
         .noticia-principal {
-            border: 3px solid $ColorROjoClaro;
+            border: 3px solid map-get($colores , ColorRojoClaro );
             border-radius: 9px;
         
             .titulo-principal {
-                font-family: 'Roboto', sans-serif;
-                font-weight: 600;
+                @extend .titulos;
                 font-size: 25px;
                 font-style: none;
                 color: black;
@@ -103,12 +195,11 @@ $ColorGris : #D9D9D9;
         .noticia {
             text-decoration: none;
             color: black;
-            border: 1px solid $ColorROjoClaro ;
+            border: 1px solid map-get($colores , ColorRojoClaro ); ;
             border-radius: 7px;
         
             h2 {
-                font-family: 'Roboto', sans-serif;
-                font-weight: 600;
+                @extend .titulos;
                 font-size: 18px;
             }
         }
@@ -184,7 +275,7 @@ $ColorGris : #D9D9D9;
 
 
 footer {
-    background-color:$ColorRojo;
+    background-color:map-get($colores , ColorRojo);
 
 
 
@@ -248,8 +339,7 @@ footer {
 
 
 aside a {
-    height: 150px;
-    width: 100%;
+    @include tamaño (150px,100%);
 }
 
 
@@ -328,9 +418,8 @@ aside a {
 
 
     .item-contacto {
-        width: 80%;
-        height: 40px;
-        border:$ColorRojo 1px solid;
+        @include tamaño (40px,80%);
+        border:map-get($colores , ColorRojo ) 1px solid;
         border-radius: 10px;
         background-color: white;
     
@@ -628,7 +717,7 @@ aside a {
     }
 
     .bg {
-        background-color:$ColorRojo;
+        background-color:map-get($colores , ColorRojo );
     }
 
     .titulo-section {
@@ -801,13 +890,13 @@ aside a {
 @media (min-width: 1200px){
     
     .header {
-        background-color:$ColorROjoClaro;
+        background-color:map-get($colores , ColorRojoClaro );;
         height: 35px;
     }
 
     .heading {
         list-style: none;
-        background-color: $ColorGris;
+        background-color: map-get($colores , ColorGris );
         width: 200px;
         height: 24px;
         border-radius: 10px; 
@@ -895,12 +984,12 @@ aside a {
     }
 
     .input {
-        border: 1px solid $ColorRojo;
+        border: 1px solid map-get($colores , ColorRojo );
         border-radius: 10px;
     }
 
     .enviar {
-        background-color: $ColorRojo;
+        background-color: map-get($colores , ColorRojo );
         border:none;
         border-radius: 10px;
         color: white;
