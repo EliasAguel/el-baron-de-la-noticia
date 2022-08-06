@@ -88,6 +88,8 @@ $colores: (
 .nav {
     background-color: map-get($colores , ColorRojo );
     height: 40px;
+    
+    
 
         ul {
             list-style: none;
@@ -95,9 +97,13 @@ $colores: (
             white-space: nowrap;
             margin: 0;
             padding: 0;
+            box-shadow: inset -10px 0px 8px 0 #0000004b;
+
+            
 
             &::-webkit-scrollbar {
                 display: none ;
+                
             }
 
             li a {
@@ -107,6 +113,8 @@ $colores: (
                 font-weight: 600;
                 font-size: 16px;
                 margin: 10px;
+                
+                
             }
         }
 
@@ -128,7 +136,7 @@ $colores: (
     font-weight: 600;
     font-size: 25px;
     font-style: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .noticia {
@@ -139,6 +147,7 @@ $colores: (
 
             h2 {
             @extend .titulos;
+            color: rgb(255, 255, 255);
             font-size: 18px;
             }
         }
@@ -196,6 +205,7 @@ $colores: (
 
 .section-principal {
     border-bottom: 1px solid black;
+    margin-top: 50px;
 } 
 
 .section {
@@ -268,10 +278,6 @@ $colores: (
     margin: 0;
     padding: 0;
 }
-
-
-
-
 
 
 
@@ -373,14 +379,11 @@ aside a {
     font-size: 22px;
 }
 
-.noticia-principal {
-    border: 3px solid map-get($colores , ColorRojoClaro ) ;
-    border-radius: 9px;
-}
+
 
 .noticia{
     border: 1px solid map-get($colores , ColorRojoClaro ) ;
-    border-radius: 7px;
+    border-radius: 11px;
 }
 
 
@@ -402,7 +405,15 @@ aside a {
 }
 
 
+.sombra-titulo {
+    text-shadow: 3px 3px 20px map-get($colores , ColorRojo ),
+    -2px 1px 30px map-get($colores , ColorRojoClaro );
+    
+}
 
+.sombra-descripcion {
+    text-shadow: 0 1px 1px map-get($colores , ColorRojoClaro );
+}
 
 
 
@@ -531,10 +542,17 @@ aside a {
         list-style: none;
         overflow-x:hidden;
         white-space:none;
+        box-shadow: none;
     }
 
+
+
     .nav {
-        height: auto;
+        height: auto;   
+    }
+
+    .nav ul {
+        box-shadow: none;
     }
 
     .nosotros span {
@@ -556,10 +574,14 @@ aside a {
         font-size: 36px;
     }
 
-    .noticia a h2 {
-        font-size: 22px;
-        font-weight: 500;
-    } 
+
+    .noticia {
+        a {
+            h2 {
+            font-size: 22px;
+            }
+        }
+}
 
     .titulo-noticia-page h4 {
         font-size: 18px;
@@ -596,15 +618,17 @@ aside a {
         text-decoration: none;
     }
 
-    .noticia-titulo {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 600;
-        font-size: 25px;
-        color: black;
-    }
+
+    .noticia {
+        a {
+            h2 {
+            font-size: 25px;
+            }
+        }
+}
 
     .info-noticia-principal {
-        color: rgb(104, 104, 104);
+        color: map-get($colores , ColorGris );
         font-family: 'Lato', sans-serif;
         font-weight: 100;
         font-size: 14px;
@@ -702,9 +726,14 @@ aside a {
         font-size: 50px;
     }
 
-    .noticia-titulo {
-        font-size: 42px ;
-    }
+
+    .noticia {
+        a {
+            h2 {
+            font-size: 42px;
+            }
+        }
+}
 
     .info-noticia-principal {
         font-size: 18px ;
@@ -782,7 +811,6 @@ aside a {
     .heading {
         list-style: none;
         background-color: map-get($colores , ColorGris );
-        width: 200px;
         height: 24px;
         border-radius: 10px; 
 
@@ -820,7 +848,7 @@ aside a {
             font-family: 'Roboto', sans-serif;
             font-weight: 600;
             font-size: 30px;
-            color: black;
+            color: rgb(255, 255, 255);
         }
     }
 
@@ -830,9 +858,13 @@ aside a {
         font-size: 60px;
     }
 
-    .noticia-titulo {
-        font-size: 45px ;
-    }
+    .noticia {
+        a {
+            h2 {
+            font-size: 45px;
+            }
+        }
+}
 
     .info-noticia-principal {
         font-size: 18px ;
@@ -874,7 +906,7 @@ aside a {
     .input {
         border: 1px solid map-get($colores , ColorRojo );
         border-radius: 10px;
-        padding-left: 4px;
+        padding-left: 8px;
     }
 
     .enviar {
@@ -959,9 +991,14 @@ aside a {
         font-size: 22px;
     }
 
-    .noticia-titulo {
-        font-size: 55px;
+
+.noticia {
+    a {
+        h2 {
+        font-size: 50px;
+        }
     }
+}
 
     .section-con-noticias {
         width: 90%;

@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/logo.ico">
+    <link rel="icon" href="img/logo.svg">
     <title>EL Barón De la Noticia</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fira+Sans+Extra+Condensed:wght@100;200;300;400;500;600;700&family=Lato:ital,wght@0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body class="container-fluid">
     <header class="row justify-content-center heading-logo">
@@ -20,96 +20,32 @@
                 <li class="mx-2">11:11</li>
             </ul>
             <div class="col-2 col-sm-1 lupa d-xl-flex align-items-xl-center"><a class="d-xl-flex" href="">
-                <img src="img/lupa.png" alt="buscador" class="img-fluid col-lg-4 col-sm-8 col-8 col-xl-3 col-xxl-2"></a>
+                <img src="./img/lupa.png" alt="buscador" class="img-fluid col-lg-4 col-sm-8 col-8 col-xl-3 col-xxl-2"></a>
             </div>
         </div>
         <div class="col-5 col-sm-4 mb-3 row m-xl-0 py-xl-5">
-            <a class=" d-flex align-items-center justify-content-center"  href="index.html">
-                <img src="img/logo.png" alt="logo de EL Barón De La Noticia" class="img-fluid col-8 col-md-6 col-lg-5 col-xl-4 col-xxl-3">
+            <a class=" d-flex align-items-center justify-content-center"  href="../index.html">
+                <img src="./img/logo.svg" alt="logo de EL Barón De La Noticia" class="img-fluid col-8 col-md-6 col-lg-5 col-xl-4 col-xxl-3">
             </a>
         </div>
     </header>
     <nav class="nav d-sm-flex justify-content-sm-center">
-        <ul class="d-flex flex-row flex-sm-wrap menu align-items-center p-sm-2 justify-content-sm-center p-xl-0">
-            <li class="px-xl-1 px-xxl-2"" ><a href="#salud">SALUD</a></li>
-            <li class="px-xl-1 px-xxl-2""><a href="#economia">ECONOMIA</a></li>
-            <li class="px-xl-1 px-xxl-2""><a href="#cultura">CULTURA</a></li>
+        <ul class=" d-flex flex-row flex-sm-wrap menu align-items-center p-sm-2 justify-content-sm-center p-xl-0">
+            <li class="px-xl-1 px-xxl-2"><a href="#salud">SALUD</a></li>
+            <li class="px-xl-1 px-xxl-2"><a href="#economia">ECONOMIA</a></li>
+            <li class="px-xl-1 px-xxl-2"><a href="#cultura">CULTURA</a></li>
             <li class="px-xl-1 px-xxl-2"><a href="#tecnologia-y-ciencia">TECNOLOGIA Y CIENCIA</a></li>
             <li class="px-xl-1 px-xxl-2"><a href="#internacional">INTERNACIONAL</a></li>
             <li class="px-xl-1 px-xxl-2"><a href="#deportes">DEPORTES</a></li>
             <li class="px-xl-1 px-xxl-2"><a href="#policial">POLICIAL</a></li>
         </ul>
+
+
+
     </nav>
     <main>
         <section class="section-principal pb-5">
-            <div class="d-md-none section-1">
-                <article class="my-5 p-1 noticia-1 animacion1">
-                    <div class="card border-0">
-                        <a class="noticia-principal" href="./pages/page-noticia.html">
-                            <img src="./img/foto-noticia.jpg" class="card-img" alt="">
-                            <div class="card-img-overlay titulo-noticia-principal d-flex align-items-end">
-                                <h1 class="card-title titulo-principal d-flex align-items-end text-center px-1 py-2 px-sm-3 py-sm-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h1>
-                                <p class="card-text d-none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic totam dolore ad laborum. Eaque earum id praesentium aliquid dolor veritatis culpa recusandae dicta ullam. Autem pariatur error, modi qui beatae ipsa, maxime temporibus molestiae illo sint placeat sit dolorem accusantium doloremque praesentium accusamus a ad vitae maiores quis numquam repellat sapiente recusandae deserunt. Dolores id unde voluptate, dicta exercitationem omnis odit quas voluptas animi reiciendis, voluptatem temporibus eligendi debitis quo?</p>
-                            </div>
-                        </a>
-                    </div>
-                </article>
-                <div class="d-flex flex-column align-items-center mx-3 noticia-2">
-                    <article class="">
-                        <div class="noticia-principal card border-0  noticia my-4 animacion2">
-                            <a class="noticia" href="">
-                                <img src="./img/foto-noticia.jpg" class="card-img" alt="">
-                                <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <h2 class="card-title text-centrer d-flex align-items-end px-1 py-2 px-sm-2 py-sm-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h2>
-                                </div>
-                            </a>
-                        </div>
-                    </article>
-                    <article class="">
-                        <div class="noticia-principal card border-0  noticia my-4 animacion2">
-                            <a class="noticia" href="">
-                                <img src="./img/foto-noticia.jpg" class="card-img" alt="">
-                                <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <h2 class="card-title text-centrer d-flex px-1 py-2 px-sm-2 py-sm-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h2>
-                                </div>
-                            </a>
-                        </div>
-                    </article>
-                </div>
-                <div class="d-flex flex-column align-items-center mx-3 noticia-3">
-                    <article class="">
-                        <div class="noticia-principal card border-0  noticia my-4 animacion2">
-                            <a class="noticia" href="">
-                                <img src="./img/foto-noticia.jpg" class="card-img" alt="">
-                                <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <h2 class="card-title text-centrer d-flex px-1 py-2 px-sm-2 py-sm-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h2>
-                                </div>
-                            </a>
-                        </div>
-                    </article> 
-                    <article class="">
-                        <div class="noticia-principal card border-0  noticia my-4 animacion2">
-                            <a class="noticia" href="">
-                                <img src="./img/foto-noticia.jpg" class="card-img" alt="">
-                                <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <h2 class="card-title text-centrer d-flex px-1 py-2 px-sm-2 py-sm-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h2>
-                                </div>
-                            </a>
-                        </div>
-                    </article>
-                    <article class="">
-                        <div class="noticia-principal card border-0  noticia my-4 animacion2">
-                            <a class="noticia" href="">
-                                <img src="./img/foto-noticia.jpg" class="card-img" alt="">
-                                <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <h2 class="card-title text-centrer d-flex px-1 py-2 px-sm-2 py-sm-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h2>
-                                </div>
-                            </a>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="d-none d-md-block my-md-5 px-md-3 p-lg-5 section-2">
+            <div class="my-md-5 px-md-3 p-lg-5 section-2">
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                     <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -120,41 +56,41 @@
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
                     </div>
                     <div class="carousel-inner">
-                    <div class="carousel-item active"><a href="./pages/page-noticia.html">
-                        <img src="./img/foto-noticia.jpg" class="d-block w-100 border-img" alt="...">
-                        <div class="carousel-caption d-none d-md-block py-xl-5">
-                        <h1 class="titulo-principal p-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h1>
-                        <p class="info-noticia-principal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic totam dolore ad laborum. Eaque earum id praesentium aliquid dolor veritatis culpa recusandae dicta ullam. Autem pariatur error, modi qui beatae ipsa, maxime temporibus molestiae illo sint placeat sit dolorem accusantium doloremque praesentium accusamus a ad vitae maiores quis numquam repellat sapiente recusandae deserunt. Dolores id unde voluptate, dicta exercitationem omnis odit quas voluptas animi reiciendis, voluptatem temporibus eligendi debitis quo?</p>
+                    <div class="carousel-item active noticia"><a href="./pages/page-noticia.html">
+                        <img src="./img/noticia-principal/1.jpg" class="d-block w-100 border-img" alt="...">
+                        <div class="carousel-caption py-xl-5">
+                        <h1 class="titulo-principal p-0 p-sm-4 sombra-titulo">Todo listo para la velada de boxeo mas esperada</h1>
+                        <p class="info-noticia-principal d-none d-md-inline sombra-descripcion">El excéntrico streamer Ibai Llanos volverá a la carga este sábado con otro mega evento que promete conmover a toda su comunidad en Twitch. Tras el insólito Mundial de Globos, el vasco repetirá el sábado su tradicional velada de boxeo en donde youtubers, streamers e influencers se miden en el cuadrilátero.</p>
                         </div></a>
                     </div>
-                    <div class="carousel-item"><a href="">
-                        <img src="./img/foto-noticia.jpg" class="d-block w-100 border-img" alt="...">
-                        <div class="carousel-caption d-none d-md-block py-xl-5">
-                        <h2 class="noticia-titulo py-5 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h2>
+                    <div class="carousel-item noticia"><a href="">
+                        <img src="./img/noticia-principal/2.jpg" class="d-block w-100 border-img" alt="...">
+                        <div class="carousel-caption py-xl-5">
+                        <h2 class="noticia-titulo p-0 py-sm-5 sombra-titulo">Los avances en robótica más importantes del año</h2>
                         </div></a>
                     </div>
-                    <div class="carousel-item"><a href="">
-                        <img src="./img/foto-noticia.jpg" class="d-block w-100 border-img" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                        <h2 class="noticia-titulo py-5 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h2>
+                    <div class="carousel-item noticia"><a href="">
+                        <img src="./img/noticia-principal/3.jpg" class="d-block w-100 border-img" alt="...">
+                        <div class="carousel-caption">
+                        <h2 class="noticia-titulo p-0 p-sm-5 sombra-titulo">El caso mas extraño de para esta fiscal</h2>
                         </div></a>
                     </div>
-                    <div class="carousel-item"><a href="">
-                        <img src="./img/foto-noticia.jpg" class="d-block w-100 border-img" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                        <h2 class="noticia-titulo py-5 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h2>
+                    <div class="carousel-item noticia"><a href="">
+                        <img src="./img/noticia-principal/4.jpg" class="d-block w-100 border-img" alt="...">
+                        <div class="carousel-caption">
+                        <h2 class="noticia-titulo p-0 p-sm-5 sombra-titulo">Nuevo hallazgo de la medicina tradicional</h2>
                         </div></a>
                     </div>
-                    <div class="carousel-item"><a href="">
-                        <img src="./img/foto-noticia.jpg" class="d-block w-100 border-img" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                        <h2 class="noticia-titulo py-5 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h2>
+                    <div class="carousel-item noticia"><a href="">
+                        <img src="./img/noticia-principal/5.jpg" class="d-block w-100 border-img" alt="...">
+                        <div class="carousel-caption">
+                        <h2 class="noticia-titulo p-0 p-sm-5 sombra-titulo">Nueva ayuda económica de EEUU a Argentina</h2>
                         </div></a>
                     </div>
-                    <div class="carousel-item"><a href="">
-                        <img src="./img/foto-noticia.jpg" class="d-block w-100 border-img" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                        <h2 class="noticia-titulo py-5 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h2>
+                    <div class="carousel-item noticia"><a href="">
+                        <img src="./img/noticia-principal/6.jpg" class="d-block w-100 border-img" alt="...">
+                        <div class="carousel-caption">
+                        <h2 class="noticia-titulo p-0 p-sm-5 sombra-titulo">Una de las figuras mas importantes del jazz en el Luna Park</h2>
                         </div></a>
                     </div>
                     </div>
@@ -176,37 +112,37 @@
             </div>
             <div class="section-con-noticias row d-xl-none">
                 <article class="col-lg-6 d-flex flex-row my-4 align-items-md-end my-lg-5 animacion6">
-                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia.jpg" alt="">
-                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia/salud/1.jpg" alt="">
+                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Científicos publican nuevos estudios sobre el embarazo</h4></a>
                 </article>
                 <article class="col-lg-6 d-flex flex-row my-4 align-items-md-end my-lg-5 animacion6">
-                    <img class=" noticia-section img-fluid border-img" src="img/foto-noticia.jpg" alt="">
-                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                    <img class=" noticia-section img-fluid border-img" src="img/foto-noticia/salud/2.jpg" alt="">
+                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">El uso del barbijo cayó un 60% desde el año pasado</h4></a>
                 </article>
                 <article class="col-lg-6 d-flex flex-row my-4 align-items-md-end my-lg-5 animacion6">
-                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia.jpg" alt="">
-                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia/salud/3.jpg" alt="">
+                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Denuncian mala praxis en un consultorio odontológico </h4></a>
                 </article>
                 <article class="col-lg-6 d-flex flex-row my-4 align-items-md-end my-lg-5 animacion6">
-                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia.jpg" alt="">
-                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia/salud/4.jpg" alt="">
+                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">No lavarse las manos genera un 80% mas de enfermedades</h4></a>
                 </article>
             </div>
             <div class="d-none d-xl-flex flex-column section-con-noticias">
                 <div class="row col-12">
                     <article class="col-6 noticia-section">
                         <div class=" card border-0 my-4 mx-5 animacion4">
-                                <img src="./img/foto-noticia.jpg" class="card-img border-img" alt="">
+                                <img src="img/foto-noticia/salud/1.jpg" class="card-img border-img" alt="">
                                 <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2 sombra-titulo">Científicos publican nuevos estudios sobre el embarazo</h4></a>
                                 </div>
                         </div>
                     </article>
                     <article class="col-6 noticia-section">
                         <div class=" card border-0 my-4 mx-5  animacion5">
-                                <img src="./img/foto-noticia.jpg" class="card-img border-img" alt="">
+                                <img src="img/foto-noticia/salud/2.jpg" class="card-img border-img" alt="">
                                 <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2 sombra-titulo">El uso del barbijo cayó un 60% desde el año pasado</h4></a>
                                 </div>
                         </div>
                     </article>
@@ -214,17 +150,17 @@
                 <div class="row col-12">
                     <article class="col-6 noticia-section ">
                         <div class=" card border-0 my-4 mx-5 animacion4">
-                                <img src="./img/foto-noticia.jpg" class="card-img border-img" alt="">
+                                <img src="img/foto-noticia/salud/3.jpg" class="card-img border-img" alt="">
                                 <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2 sombra-titulo">Denuncian mala praxis en un consultorio odontológico </h4></a>
                                 </div>
                         </div>
                     </article>
                     <article class="col-6 noticia-section ">
                         <div class=" card border-0 my-4 mx-5 animacion5">
-                                <img src="./img/foto-noticia.jpg" class="card-img border-img" alt="">
+                                <img src="img/foto-noticia/salud/4.jpg" class="card-img border-img" alt="">
                                 <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2 sombra-titulo">No lavarse las manos genera un 80% mas de enfermedades </h4></a>
                                 </div>
                         </div>
                     </article>
@@ -238,37 +174,37 @@
             </div>
             <div class="section-con-noticias row d-xl-none">
                 <article class="col-lg-6 d-flex flex-row my-4 align-items-md-end my-lg-5 animacion6">
-                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia.jpg" alt="">
-                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia/economia/1.jpg" alt="">
+                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">El bitcoin dejo de ser la moneda digital mas segura para invertir</h4></a>
                 </article>
                 <article class="col-lg-6 d-flex flex-row my-4 align-items-md-end my-lg-5 animacion6">
-                    <img class=" noticia-section img-fluid border-img" src="img/foto-noticia.jpg" alt="">
-                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                    <img class=" noticia-section img-fluid border-img" src="img/foto-noticia/economia/2.jpg" alt="">
+                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Importante caída de acciones en el sector alimenticio</h4></a>
                 </article>
                 <article class="col-lg-6 d-flex flex-row my-4 align-items-md-end my-lg-5 animacion6">
-                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia.jpg" alt="">
-                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia/economia/3.jpg" alt="">
+                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">10 tips para mejorar las finanzas de tu empresa</h4></a>
                 </article>
                 <article class="col-lg-6 d-flex flex-row my-4 align-items-md-end my-lg-5 animacion6">
-                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia.jpg" alt="">
-                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia/economia/4.jpg" alt="">
+                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Nuevo acuerdo entre empresas de San Juan tras el escandalo</h4></a>
                 </article>
             </div>
             <div class="d-none d-xl-flex flex-column section-con-noticias">
                 <div class="row col-12">
                     <article class="col-6 noticia-section">
                         <div class=" card border-0 my-4 mx-5 animacion4">
-                                <img src="./img/foto-noticia.jpg" class="card-img border-img" alt="">
+                                <img src="img/foto-noticia/economia/1.jpg" class="card-img border-img" alt="">
                                 <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2 sombra-titulo">El bitcoin dejo de ser la moneda digital mas segura para invertir</h4></a>
                                 </div>
                         </div>
                     </article>
                     <article class="col-6 noticia-section">
                         <div class=" card border-0 my-4 mx-5  animacion5">
-                                <img src="./img/foto-noticia.jpg" class="card-img border-img" alt="">
+                                <img src="img/foto-noticia/economia/2.jpg" class="card-img border-img" alt="">
                                 <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2 sombra-titulo">Importante caída de acciones en el sector alimenticio</h4></a>
                                 </div>
                         </div>
                     </article>
@@ -276,17 +212,17 @@
                 <div class="row col-12">
                     <article class="col-6 noticia-section ">
                         <div class=" card border-0 my-4 mx-5 animacion4">
-                                <img src="./img/foto-noticia.jpg" class="card-img border-img" alt="">
+                                <img src="img/foto-noticia/economia/3.jpg" class="card-img border-img" alt="">
                                 <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2 sombra-titulo">10 tips para mejorar las finanzas de tu empresa</h4></a>
                                 </div>
                         </div>
                     </article>
                     <article class="col-6 noticia-section ">
                         <div class=" card border-0 my-4 mx-5 animacion5">
-                                <img src="./img/foto-noticia.jpg" class="card-img border-img" alt="">
+                                <img src="img/foto-noticia/economia/4.jpg" class="card-img border-img" alt="">
                                 <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2 sombra-titulo">Nuevo acuerdo entre empresas de san Juan tras el escandalo</h4></a>
                                 </div>
                         </div>
                     </article>
@@ -300,37 +236,37 @@
             </div>
             <div class="section-con-noticias row d-xl-none">
                 <article class="col-lg-6 d-flex flex-row my-4 align-items-md-end my-lg-5 animacion6">
-                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia.jpg" alt="">
-                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia/cultura/1.jpg" alt="">
+                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Develan el elenco que trabajará en el Film argentino que estará en Netflix</h4></a>
                 </article>
                 <article class="col-lg-6 d-flex flex-row my-4 align-items-md-end my-lg-5 animacion6">
-                    <img class=" noticia-section img-fluid border-img" src="img/foto-noticia.jpg" alt="">
-                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                    <img class=" noticia-section img-fluid border-img" src="img/foto-noticia/cultura/2.jpg" alt="">
+                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Así fue la experiencia que se vivió en “La casita del horror”</h4></a>
                 </article>
                 <article class="col-lg-6 d-flex flex-row my-4 align-items-md-end my-lg-5 animacion6">
-                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia.jpg" alt="">
-                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia/cultura/3.jpg" alt="">
+                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Charla exclusiva con la ganadora del concurso nacional de pintura sobre lienzo</h4></a>
                 </article>
                 <article class="col-lg-6 d-flex flex-row my-4 align-items-md-end my-lg-5 animacion6">
-                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia.jpg" alt="">
-                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia/cultura/4.jpg" alt="">
+                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">El detrás de escena de la serie zombie furor del momento</h4></a>
                 </article>
             </div>
             <div class="d-none d-xl-flex flex-column section-con-noticias">
                 <div class="row col-12">
                     <article class="col-6 noticia-section">
                         <div class=" card border-0 my-4 mx-5 animacion4">
-                                <img src="./img/foto-noticia.jpg" class="card-img border-img" alt="">
+                                <img src="img/foto-noticia/cultura/1.jpg" class="card-img border-img" alt="">
                                 <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2 sombra-titulo">Develan el elenco que trabajará en el Film argentino que estará en Netflix</h4></a>
                                 </div>
                         </div>
                     </article>
                     <article class="col-6 noticia-section">
                         <div class=" card border-0 my-4 mx-5  animacion5">
-                                <img src="./img/foto-noticia.jpg" class="card-img border-img" alt="">
+                                <img src="img/foto-noticia/cultura/2.jpg" class="card-img border-img" alt="">
                                 <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2 sombra-titulo">Así fue la experiencia que se vivió en “La casita del horror”</h4></a>
                                 </div>
                         </div>
                     </article>
@@ -338,17 +274,17 @@
                 <div class="row col-12">
                     <article class="col-6 noticia-section ">
                         <div class=" card border-0 my-4 mx-5 animacion4">
-                                <img src="./img/foto-noticia.jpg" class="card-img border-img" alt="">
+                                <img src="img/foto-noticia/cultura/3.jpg" class="card-img border-img" alt="">
                                 <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2 sombra-titulo">Charla exclusiva con la ganadora del concurso nacional de pintura sobre lienzo</h4></a>
                                 </div>
                         </div>
                     </article>
                     <article class="col-6 noticia-section ">
                         <div class=" card border-0 my-4 mx-5 animacion5">
-                                <img src="./img/foto-noticia.jpg" class="card-img border-img" alt="">
+                                <img src="img/foto-noticia/cultura/4.jpg" class="card-img border-img" alt="">
                                 <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2 sombra-titulo">El detrás de escena de la serie zombie furor del momento</h4></a>
                                 </div>
                         </div>
                     </article>
@@ -362,37 +298,37 @@
             </div>
             <div class="section-con-noticias row d-xl-none">
                 <article class="col-lg-6 d-flex flex-row my-4 align-items-md-end my-lg-5 animacion6">
-                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia.jpg" alt="">
-                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia/tecnologia-y-ciencia/1.jpg" alt="">
+                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Revolucionario avance tecnológico en la industria musical</h4></a>
                 </article>
                 <article class="col-lg-6 d-flex flex-row my-4 align-items-md-end my-lg-5 animacion6">
-                    <img class=" noticia-section img-fluid border-img" src="img/foto-noticia.jpg" alt="">
-                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                    <img class=" noticia-section img-fluid border-img" src="img/foto-noticia/tecnologia-y-ciencia/2.jpg" alt="">
+                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Pruebas de un sensor capaz de calcular las vitaminas de las frutas</h4></a>
                 </article>
                 <article class="col-lg-6 d-flex flex-row my-4 align-items-md-end my-lg-5 animacion6">
-                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia.jpg" alt="">
-                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia/tecnologia-y-ciencia/3.jpg" alt="">
+                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Sony y sus nuevas cámaras buscan cambiar la fotografía moderna</h4></a>
                 </article>
                 <article class="col-lg-6 d-flex flex-row my-4 align-items-md-end my-lg-5 animacion6">
-                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia.jpg" alt="">
-                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia/tecnologia-y-ciencia/4.jpg" alt="">
+                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Eddy, el prototipo del que todo el mundo habla</h4></a>
                 </article>
             </div>
             <div class="d-none d-xl-flex flex-column section-con-noticias">
                 <div class="row col-12">
                     <article class="col-6 noticia-section">
                         <div class=" card border-0 my-4 mx-5 animacion4">
-                                <img src="./img/foto-noticia.jpg" class="card-img border-img" alt="">
+                                <img src="img/foto-noticia/tecnologia-y-ciencia/1.jpg" class="card-img border-img" alt="">
                                 <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2 sombra-titulo">Revolucionario avance tecnológico en la industria musical</h4></a>
                                 </div>
                         </div>
                     </article>
                     <article class="col-6 noticia-section">
                         <div class=" card border-0 my-4 mx-5  animacion5">
-                                <img src="./img/foto-noticia.jpg" class="card-img border-img" alt="">
+                                <img src="img/foto-noticia/tecnologia-y-ciencia/2.jpg" class="card-img border-img" alt="">
                                 <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2 sombra-titulo">Pruebas de un sensor capaz de calcular las vitaminas de las frutas</h4></a>
                                 </div>
                         </div>
                     </article>
@@ -400,17 +336,17 @@
                 <div class="row col-12">
                     <article class="col-6 noticia-section ">
                         <div class=" card border-0 my-4 mx-5 animacion4">
-                                <img src="./img/foto-noticia.jpg" class="card-img border-img" alt="">
+                                <img src="img/foto-noticia/tecnologia-y-ciencia/3.jpg" class="card-img border-img" alt="">
                                 <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2 sombra-titulo">Sony y sus nuevas cámaras buscan cambiar la fotografía moderna</h4></a>
                                 </div>
                         </div>
                     </article>
                     <article class="col-6 noticia-section ">
                         <div class=" card border-0 my-4 mx-5 animacion5">
-                                <img src="./img/foto-noticia.jpg" class="card-img border-img" alt="">
+                                <img src="img/foto-noticia/tecnologia-y-ciencia/4.jpg" class="card-img border-img" alt="">
                                 <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2 sombra-titulo">Eddy, el prototipo del que todo el mundo habla</h4></a>
                                 </div>
                         </div>
                     </article>
@@ -424,37 +360,37 @@
             </div>
             <div class="section-con-noticias row d-xl-none">
                 <article class="col-lg-6 d-flex flex-row my-4 align-items-md-end my-lg-5 animacion6">
-                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia.jpg" alt="">
-                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia/internacional/1.jpg" alt="">
+                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Lo mas relevante del congreso en Londres</h4></a>
                 </article>
                 <article class="col-lg-6 d-flex flex-row my-4 align-items-md-end my-lg-5 animacion6">
-                    <img class=" noticia-section img-fluid border-img" src="img/foto-noticia.jpg" alt="">
-                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                    <img class=" noticia-section img-fluid border-img" src="img/foto-noticia/internacional/2.jpg" alt="">
+                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Cargamento narco fue interceptado cerca del mar portugués</h4></a>
                 </article>
                 <article class="col-lg-6 d-flex flex-row my-4 align-items-md-end my-lg-5 animacion6">
-                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia.jpg" alt="">
-                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia/internacional/3.jpg" alt="">
+                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Así fueron los festejos del día de la patria en Nueva Zelanda</h4></a>
                 </article>
                 <article class="col-lg-6 d-flex flex-row my-4 align-items-md-end my-lg-5 animacion6">
-                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia.jpg" alt="">
-                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia/internacional/4.jpg" alt="">
+                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Empresas aéreas internacionales aumentan sus precios</h4></a>
                 </article>
             </div>
             <div class="d-none d-xl-flex flex-column section-con-noticias">
                 <div class="row col-12">
                     <article class="col-6 noticia-section">
                         <div class=" card border-0 my-4 mx-5 animacion4">
-                                <img src="./img/foto-noticia.jpg" class="card-img border-img" alt="">
+                                <img src="img/foto-noticia/internacional/1.jpg" class="card-img border-img" alt="">
                                 <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2 sombra-titulo">Lo mas relevante del congreso en Londres</h4></a>
                                 </div>
                         </div>
                     </article>
                     <article class="col-6 noticia-section">
                         <div class=" card border-0 my-4 mx-5  animacion5">
-                                <img src="./img/foto-noticia.jpg" class="card-img border-img" alt="">
+                                <img src="img/foto-noticia/internacional/2.jpg" class="card-img border-img" alt="">
                                 <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2 sombra-titulo">Cargamento narco fue interceptado cerca del mar portugués</h4></a>
                                 </div>
                         </div>
                     </article>
@@ -462,17 +398,17 @@
                 <div class="row col-12">
                     <article class="col-6 noticia-section ">
                         <div class=" card border-0 my-4 mx-5 animacion4">
-                                <img src="./img/foto-noticia.jpg" class="card-img border-img" alt="">
+                                <img src="img/foto-noticia/internacional/3.jpg" class="card-img border-img" alt="">
                                 <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2 sombra-titulo">Así fueron los festejos del día de la patria en Nueva Zelanda</h4></a>
                                 </div>
                         </div>
                     </article>
                     <article class="col-6 noticia-section ">
                         <div class=" card border-0 my-4 mx-5 animacion5">
-                                <img src="./img/foto-noticia.jpg" class="card-img border-img" alt="">
+                                <img src="img/foto-noticia/internacional/4.jpg" class="card-img border-img" alt="">
                                 <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2 sombra-titulo">Empresas aéreas internacionales aumentan sus precios</h4></a>
                                 </div>
                         </div>
                     </article>
@@ -486,37 +422,37 @@
             </div>
             <div class="section-con-noticias row d-xl-none">
                 <article class="col-lg-6 d-flex flex-row my-4 align-items-md-end my-lg-5 animacion6">
-                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia.jpg" alt="">
-                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia/deportes/1.jpg" alt="">
+                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">El campeonato nacional sigue dando de que hablar</h4></a>
                 </article>
                 <article class="col-lg-6 d-flex flex-row my-4 align-items-md-end my-lg-5 animacion6">
-                    <img class=" noticia-section img-fluid border-img" src="img/foto-noticia.jpg" alt="">
-                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                    <img class=" noticia-section img-fluid border-img" src="img/foto-noticia/deportes/2.jpg" alt="">
+                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">¿Por qué los tenistas profesionales practican yoga?</h4></a>
                 </article>
                 <article class="col-lg-6 d-flex flex-row my-4 align-items-md-end my-lg-5 animacion6">
-                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia.jpg" alt="">
-                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia/deportes/3.jpg" alt="">
+                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Resultados de las motos en el Dakar</h4></a>
                 </article>
                 <article class="col-lg-6 d-flex flex-row my-4 align-items-md-end my-lg-5 animacion6">
-                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia.jpg" alt="">
-                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia/deportes/4.jpg" alt="">
+                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Surfistas reclaman la poca importancia del deporte a nivel nacional</h4></a>
                 </article>
             </div>
             <div class="d-none d-xl-flex flex-column section-con-noticias">
                 <div class="row col-12">
                     <article class="col-6 noticia-section">
                         <div class=" card border-0 my-4 mx-5 animacion4">
-                                <img src="./img/foto-noticia.jpg" class="card-img border-img" alt="">
+                                <img src="img/foto-noticia/deportes/1.jpg" class="card-img border-img" alt="">
                                 <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2 sombra-titulo">El campeonato nacional sigue dando de que hablar</h4></a>
                                 </div>
                         </div>
                     </article>
                     <article class="col-6 noticia-section">
                         <div class=" card border-0 my-4 mx-5  animacion5">
-                                <img src="./img/foto-noticia.jpg" class="card-img border-img" alt="">
+                                <img src="img/foto-noticia/deportes/2.jpg" class="card-img border-img" alt="">
                                 <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2 sombra-titulo">¿Por qué los tenistas profesionales practican yoga?</h4></a>
                                 </div>
                         </div>
                     </article>
@@ -524,17 +460,17 @@
                 <div class="row col-12">
                     <article class="col-6 noticia-section ">
                         <div class=" card border-0 my-4 mx-5 animacion4">
-                                <img src="./img/foto-noticia.jpg" class="card-img border-img" alt="">
+                                <img src="img/foto-noticia/deportes/3.jpg" class="card-img border-img" alt="">
                                 <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2 sombra-titulo">Resultados de las motos en el Dakar</h4></a>
                                 </div>
                         </div>
                     </article>
                     <article class="col-6 noticia-section ">
                         <div class=" card border-0 my-4 mx-5 animacion5">
-                                <img src="./img/foto-noticia.jpg" class="card-img border-img" alt="">
+                                <img src="img/foto-noticia/deportes/4.jpg" class="card-img border-img" alt="">
                                 <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2 sombra-titulo">Surfistas reclaman la poca importancia del deporte a nivel nacional</h4></a>
                                 </div>
                         </div>
                     </article>
@@ -548,37 +484,37 @@
             </div>
             <div class="section-con-noticias row d-xl-none">
                 <article class="col-lg-6 d-flex flex-row my-4 align-items-md-end my-lg-5 animacion6">
-                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia.jpg" alt="">
-                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia/policial/1.jpg" alt="">
+                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Llevan a cabo investigación en la estación de tren por un crimen</h4></a>
                 </article>
                 <article class="col-lg-6 d-flex flex-row my-4 align-items-md-end my-lg-5 animacion6">
-                    <img class=" noticia-section img-fluid border-img" src="img/foto-noticia.jpg" alt="">
-                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                    <img class=" noticia-section img-fluid border-img" src="img/foto-noticia/policial/2.jpg" alt="">
+                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Encuentran armamento ilegal en una vivienda</h4></a>
                 </article>
                 <article class="col-lg-6 d-flex flex-row my-4 align-items-md-end my-lg-5 animacion6">
-                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia.jpg" alt="">
-                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia/policial/3.jpg" alt="">
+                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Todo lo que debes saber de ciberseguridad según el estado</h4></a>
                 </article>
                 <article class="col-lg-6 d-flex flex-row my-4 align-items-md-end my-lg-5 animacion6">
-                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia.jpg" alt="">
-                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                    <img class="noticia-section img-fluid border-img" src="img/foto-noticia/policial/4.jpg" alt="">
+                    <a class="titulo-noticia-page px-2 py-3 px-md-4 py-lg-1" href=""><h4 class="">Imputan a un policial por estar involucrado en actividades ilícitas</h4></a>
                 </article>
             </div>
             <div class="d-none d-xl-flex flex-column section-con-noticias">
                 <div class="row col-12">
                     <article class="col-6 noticia-section">
                         <div class=" card border-0 my-4 mx-5 animacion4">
-                                <img src="./img/foto-noticia.jpg" class="card-img border-img" alt="">
+                                <img src="img/foto-noticia/policial/1.jpg" class="card-img border-img" alt="">
                                 <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2 sombra-titulo">Llevan a cabo investigación en la estación de tren por un crimen</h4></a>
                                 </div>
                         </div>
                     </article>
                     <article class="col-6 noticia-section">
                         <div class=" card border-0 my-4 mx-5  animacion5">
-                                <img src="./img/foto-noticia.jpg" class="card-img border-img" alt="">
+                                <img src="img/foto-noticia/policial/2.jpg" class="card-img border-img" alt="">
                                 <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2 sombra-titulo">Encuentran armamento ilegal en una vivienda</h4></a>
                                 </div>
                         </div>
                     </article>
@@ -586,17 +522,17 @@
                 <div class="row col-12">
                     <article class="col-6 noticia-section ">
                         <div class=" card border-0 my-4 mx-5 animacion4">
-                                <img src="./img/foto-noticia.jpg" class="card-img border-img" alt="">
+                                <img src="img/foto-noticia/policial/3.jpg" class="card-img border-img" alt="">
                                 <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2 sombra-titulo">Todo lo que debes saber de ciberseguridad según el estado</h4></a>
                                 </div>
                         </div>
                     </article>
                     <article class="col-6 noticia-section ">
                         <div class=" card border-0 my-4 mx-5 animacion5">
-                                <img src="./img/foto-noticia.jpg" class="card-img border-img" alt="">
+                                <img src="img/foto-noticia/policial/4.jpg" class="card-img border-img" alt="">
                                 <div class="card-img-overlay d-flex align-items-end justify-content-center text-center">
-                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4></a>
+                                    <a class="ancla-titulo-noticia" href=""><h4 class="titulo-noticia-page card-title text-centrer d-flex align-items-end px-1 py-2 sombra-titulo">Imputan a un policial por estar involucrado en actividades ilícitas</h4></a>
                                 </div>
                         </div>
                     </article>
